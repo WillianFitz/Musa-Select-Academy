@@ -24,11 +24,11 @@
                    (volumechange)="onVolumeChange()">
               <!-- 
                 !!!! IMPORTANTE !!!!
-                Substitua a URL abaixo pela URL do seu vídeo no Firebase Storage.
+                Substitua a URL abaixo pela URL "Public URL" do seu vídeo no Cloudflare R2.
                 Ela será parecida com: 
-                https://firebasestorage.googleapis.com/v0/b/SEU-PROJETO.appspot.com/o/SEU-VIDEO.mp4?alt=media&token=SEU-TOKEN
+                https://pub-xxxxxxxxxxxxxxxxxxxxxxxx.r2.dev/SEU-VIDEO.mp4
               -->
-              <source src="https://firebasestorage.googleapis.com/v0/b/YOUR_FIREBASE_PROJECT_ID.appspot.com/o/CANCELAMENTO-CHIP-MVNO.mp4?alt=media&token=REPLACE_WITH_YOUR_TOKEN" type="video/mp4">
+              <source src="https://pub-YOUR_CLOUDFLARE_R2_PUBLIC_URL/CANCELAMENTO-CHIP-MVNO.mp4" type="video/mp4">
               Seu navegador não suporta a tag de vídeo.
             </video>
           </div>
